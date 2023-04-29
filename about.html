@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+   <meta name="description" content="Winifred is the lasted Nigerian based Front-end
+    software developer,and is very good at what she does,anything software contact her via
+     e-mail winifreddoom@gmail.com"/>
+     <title>About Winifred</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
@@ -31,7 +34,27 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body><nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+        <img src="images/logo.png" class="logo d-none d-md-block"
+         alt="Winifred's logo" />
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Winifred">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Winifred's Work"> Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact winifred"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -44,13 +67,49 @@
               everything is well explained, homeworks and deadlines are given to
               help you focus.
             </p>
-            <a href="" class="btn btn-primary">See my projects</a>
+            <a href="/work.html" class="btn btn-primary">See my projects</a>
           </div>
         </div>
         <div class="col-md-6">
-          <img src="images/winnie.png" alt="" class="img-fluid my-photo" />
+          <img src="images/winnie.png" alt="my-image" class="img-fluid my-photo" />
         </div>
       </div>
     </div>
+    <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Lets work together</p>
+          </div>
+          <div>
+          <a href="/contact.html" class="btn btn-primary" title="Contact Winifred">Contact me</a>
+          </div>
+          </div>
+        <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:winifreddoon@gmail.com" class="email-link" 
+        title="E-mail Winifred"
+        >winifreddoom@gmail.com</a>
+      </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.github.com/fredacee" target="_blank"
+          title="Github Profile">
+          <i class="fa-brands fa-github"></i>
+         </a>
+         <a href="https://www.instagram.com/fredadoom" target="_blank"
+         title="Instagram Profile">
+         <i class="fa-brands fa-instagram"></i>
+         </a>
+         <a href="https://www.twitter.com/freda" target="_blank" 
+         title="Twitter Profile">
+          <i class="fa-brands fa-twitter"></i>
+          </a>
+          </div>
+          <p class="text-center mt-4">
+           ☝This project was coded by Winifred Ayaga,and is 
+          <a  href="https://github.com/fredacee/portfolio-project.git"
+           target="_blank"></a>
+          open-sourced
+         </p>
+         </footer>
   </body>
 </html>
